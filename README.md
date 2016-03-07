@@ -1,6 +1,7 @@
-# require-strip-json-comments
+# require-strip-json-comments [![Build Status](https://travis-ci.org/duzun/require-strip-json-comments.svg?branch=master)](https://travis-ci.org/duzun/require-strip-json-comments)
 
 Require .json files with comments
+
 
 ## Install
 
