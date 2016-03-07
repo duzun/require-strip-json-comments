@@ -1,0 +1,51 @@
+{
+  "name": "require-strip-json-comments",
+  "version": "1.0.0",
+  "description": "Require .json files with comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/",
+    "verup": "verup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duzun/require-strip-json-comments.git"
+  },
+  "keywords": [
+    "environment",
+    "env",
+    "util",
+    "settings",
+    "conf",
+    "configuration",
+    "config",
+    "parse",
+    "multiline",
+    "comments",
+    "trim",
+    "delete",
+    "remove",
+    "strip",
+    "json",
+    "require"
+  ],
+  "author": "Dumitru Uzun <contanct@duzun.me> (https://DUzun.Me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duzun/require-strip-json-comments/issues"
+  },
+  "homepage": "https://github.com/duzun/require-strip-json-comments#readme",
+  "dependencies": {
+    "strip-json-comments": "^2.x"
+  },
+  "devDependencies": {
+    "verup": "^1.x"
+  },
+  "extra": {
+    "verup": {
+      "files": [
+        "index.js"
+      ]
+    }
+  }
+}
