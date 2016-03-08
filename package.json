@@ -1,6 +1,6 @@
 {
   "name": "require-strip-json-comments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Require .json files with comments",
   "main": "index.js",
   "scripts": {

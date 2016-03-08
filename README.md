@@ -1,6 +1,9 @@
 # require-strip-json-comments [![Build Status](https://travis-ci.org/duzun/require-strip-json-comments.svg?branch=master)](https://travis-ci.org/duzun/require-strip-json-comments)
 
-Require .json files with comments
+Require .json files with comments.
+
+For advanced JSON syntax I recomend using [require-json5](https://www.npmjs.com/package/require-json5),
+which can load JSON with trailing commas, unquoted keys, hex numbers, comments, and more.
 
 
 ## Install
@@ -45,4 +48,3 @@ var config = JSON.parse('{"name": /*a very important option*/ "value"}');
 require('require-strip-json-comments').replace();
 // ...
 ```
-
