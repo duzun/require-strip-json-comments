@@ -17,7 +17,7 @@ var JSONparse = JSON.parse;
 
 /// Require a JSON file with comments
 function requireJSON(filename) {
-    if ( path.extname(filename) == '' ) filename += '.json';
+    if ( path.extname(filename) != '.json' ) filename += '.json';
     try {
         return parse(stripBOM(fs.readFileSync(filename, 'utf8')));
     }
