@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/duzun/require-strip-json-comments.git"
   },
+  "reveal": true,
   "keywords": [
     "environment",
     "env",
