@@ -1,7 +1,7 @@
 
-var fs          = require('fs');
-var asert       = require('assert');
-var requireJSON = require('..');
+const fs          = require('fs');
+const asert       = require('assert');
+const requireJSON = require('..');
 
 
 // 1.

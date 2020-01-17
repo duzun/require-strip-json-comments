@@ -2,18 +2,18 @@
  * Require .json files with comments
  *
  * @license MIT
- * @version 1.0.2
+ * @version 2.0.0
  * @author Dumitru Uzun (DUzun.Me)
  */
 
-var VERSION = '1.0.2';
+const VERSION = '2.0.0';
 
-var fs = require('fs');
-var path = require('path');
+const fs = require('fs');
+const path = require('path');
 
-var stripJsonComments = require('strip-json-comments');
+const stripJsonComments = require('strip-json-comments');
 
-var JSONparse = JSON.parse;
+const JSONparse = JSON.parse;
 
 /// Require a JSON file with comments
 function requireJSON(filename) {
